@@ -89,7 +89,7 @@ function Catalog() {
       <section id="contact" style={{ paddingTop: 0 }}>
         <div className="contact-card reveal">
           <span className="tag-line">Ready to Order?</span>
-          <h2 className="section-heading">Let's Create Something <em>Beautiful</em></h2>
+          <h2 className="section-heading">Let's Create Something<br/><em>Beautiful</em></h2>
           <p className="body-text" style={{ maxWidth: '600px', margin: '0 auto 2rem' }}>
             Call or WhatsApp us to discuss your requirements. Every order is treated with personal care and attention.
           </p>
