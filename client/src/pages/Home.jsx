@@ -9,16 +9,14 @@ import CTABanner from '../components/CTABanner';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import Lightbox from '../components/Lightbox';
+import { servicesData } from '../data/services';
 
 function Home() {
-  const [services, setServices] = useState([]);
+  const [services, setServices] = useState(servicesData);
   const location = useLocation();
 
   useEffect(() => {
-    fetch('/api/services')
-      .then((res) => res.json())
-      .then((data) => setServices(data))
-      .catch((err) => console.error('Failed to fetch services:', err));
+    // Replaced fetch with static data to fix rendering issues on Vercel
   }, []);
 
   // Scroll to hash anchor ONLY when dynamic content finishes loading

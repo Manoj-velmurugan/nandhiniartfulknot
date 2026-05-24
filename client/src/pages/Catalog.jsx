@@ -3,17 +3,15 @@ import { useLocation } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Lightbox from '../components/Lightbox';
+import { servicesData } from '../data/services';
 
 function Catalog() {
-  const [services, setServices] = useState([]);
+  const [services, setServices] = useState(servicesData);
   const catalogRef = useRef(null);
   const location = useLocation();
 
   useEffect(() => {
-    fetch('/api/services')
-      .then((res) => res.json())
-      .then((data) => setServices(data))
-      .catch((err) => console.error('Failed to fetch services:', err));
+    // Replaced fetch with static data to fix rendering issues on Vercel
   }, []);
 
   // Scroll to hash anchor when services load
