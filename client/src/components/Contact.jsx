@@ -36,7 +36,7 @@ function Contact() {
         </div>
 
         <a
-          href="https://wa.me/919999999999"
+          href="https://wa.me/918610853175"
           className="whatsapp-btn"
           target="_blank"
           rel="noopener noreferrer"
