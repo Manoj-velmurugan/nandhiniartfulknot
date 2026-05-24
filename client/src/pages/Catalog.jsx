@@ -45,7 +45,7 @@ function Catalog() {
   };
 
   return (
-    <>
+    <div ref={catalogRef}>
       <Navbar />
 
       <header className="catalog-header">
@@ -56,7 +56,7 @@ function Catalog() {
         </p>
       </header>
 
-      <main className="catalog-list" ref={catalogRef}>
+      <main className="catalog-list">
         {services.map((srv, index) => (
           <article
             key={srv._id || srv.slug}
@@ -94,7 +94,7 @@ function Catalog() {
             Call or WhatsApp us to discuss your requirements. Every order is treated with personal care and attention.
           </p>
           <a
-            href="https://wa.me/919999999999"
+            href="https://wa.me/918610853175"
             className="btn btn-dark"
             target="_blank"
             rel="noopener noreferrer"
@@ -106,7 +106,7 @@ function Catalog() {
 
       <Footer />
       <Lightbox />
-    </>
+    </div>
   );
 }
 
