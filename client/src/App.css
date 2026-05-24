@@ -651,7 +651,15 @@ footer {
     font-size: 0.85rem;
     font-weight: 500;
   }
-  .hero-cards-container { display: none; } /* Hide 3D cards on mobile for simplicity, or simplify them */
+  .hero-cards-container { 
+    display: flex; 
+    gap: 0.25rem; 
+    margin-top: 3rem; 
+  }
+  .hero-card {
+    width: 65px;
+    height: 95px;
+  }
   #hero { padding: 120px 5% 1rem; }
   .hero-content { margin-bottom: 0; }
   #features { padding: 2rem 5%; }
