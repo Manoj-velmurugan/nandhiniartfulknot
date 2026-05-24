@@ -18,7 +18,7 @@ function StatsRow() {
   }, []);
 
   const stats = [
-    { num: '500+', label: 'Bridal Pieces' },
+    { num: '80+', label: 'Bridal Pieces' },
     { num: '6', label: 'Signature Services' },
     { num: '100%', label: 'Handcrafted' },
     { num: '∞', label: 'Custom Designs' },
@@ -27,7 +27,7 @@ function StatsRow() {
   return (
     <section id="stats" ref={ref}>
       <h2 className="section-heading reveal">Proven Results, Real Impact</h2>
-      <p className="body-text reveal">See how brides around the world are shining brighter, feeling better, and getting more done with our handcrafted embroidery platform.</p>
+      <p className="body-text reveal" style={{ maxWidth: '800px', margin: '0 auto' }}>Discover why brides across the country trust us to make their special day even more beautiful with exquisite, custom handcrafted embroidery.</p>
       
       <div className="stats-grid">
         {stats.map((s, i) => (

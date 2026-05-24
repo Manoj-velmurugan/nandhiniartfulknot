@@ -21,7 +21,6 @@ function Hero() {
   return (
     <section id="hero" ref={ref}>
       <div className="hero-content reveal">
-        <span className="tag-line">Nandhini Artfulknot</span>
         <h1 className="section-heading">
           Threads of Elegance,<br/>
           <em>Crafted to Perfection</em>
