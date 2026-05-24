@@ -86,7 +86,7 @@ function Catalog() {
         ))}
       </main>
 
-      <section id="contact" style={{ paddingTop: 0 }}>
+      <section id="contact">
         <div className="contact-card reveal">
           <span className="tag-line">Ready to Order?</span>
           <h2 className="section-heading">Let's Create Something<br/><em>Beautiful</em></h2>
