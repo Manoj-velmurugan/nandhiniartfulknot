@@ -28,8 +28,8 @@ function Navbar() {
         </ul>
 
         {/* Center Logo */}
-        <Link to="/" className="nav-logo" onClick={closeMenu}>
-          <img src="/images/logo.png" alt="Nandhini Artfulknot Logo" style={{ height: '70px', width: '70px', objectFit: 'cover', borderRadius: '50%' }} />
+        <Link to="/" className="nav-logo" onClick={closeMenu} style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: '1.4rem', fontWeight: '600', color: 'var(--accent-dark)', letterSpacing: '0.5px' }}>
+          Nandhini Artfulknot
         </Link>
 
         {/* Right Links & CTA */}
