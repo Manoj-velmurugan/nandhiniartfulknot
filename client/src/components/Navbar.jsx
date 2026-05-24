@@ -29,7 +29,7 @@ function Navbar() {
 
         {/* Center Logo */}
         <Link to="/" className="nav-logo" onClick={closeMenu}>
-          <img src="/images/logo.png" alt="Nandhini Artfulknot Logo" style={{ height: '70px', objectFit: 'contain' }} />
+          <img src="/images/logo.png" alt="Nandhini Artfulknot Logo" style={{ height: '70px', width: '70px', objectFit: 'cover', borderRadius: '50%' }} />
         </Link>
 
         {/* Right Links & CTA */}
