@@ -28,7 +28,7 @@ function Navbar() {
         </ul>
 
         {/* Center Logo */}
-        <Link to="/" className="nav-logo" onClick={closeMenu} style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: '1.4rem', fontWeight: '600', color: 'var(--accent-dark)', letterSpacing: '0.5px' }}>
+        <Link to="/" className="nav-logo" onClick={closeMenu} style={{ fontFamily: "'Playfair Display', serif", fontSize: '1.6rem', fontWeight: '700', color: '#000', letterSpacing: '1px' }}>
           Nandhini Artfulknot
         </Link>
 
