@@ -657,4 +657,7 @@ footer {
   #features { padding: 2rem 5%; }
   .features-grid { grid-template-columns: 1fr; }
   .stats-grid { grid-template-columns: 1fr; }
+
+  .btn { font-size: 0.75rem; padding: 0.7rem 1.4rem; }
+  .whatsapp-btn { font-size: 0.75rem; padding: 0.8rem 1.6rem; }
 }
