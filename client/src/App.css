@@ -573,7 +573,7 @@ footer {
   }
   .nav-cta { order: 2; }
   .hamburger { display: flex; order: 0; margin: 0; }
-  .btn-order { padding: 10px; border-radius: 50%; }
+  .btn.btn-order { padding: 0; width: 42px; height: 42px; border-radius: 50%; }
   .order-text { display: none; }
   .order-icon { display: block; }
   
